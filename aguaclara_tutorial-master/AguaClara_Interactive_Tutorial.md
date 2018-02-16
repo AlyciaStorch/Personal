@@ -288,7 +288,8 @@ my2DArrayUnits = my2DArray * u.L
 $$ D = \frac{k_BT}{6\pi\eta r} $$
 
 ```python
-from scipy.constants import Boltzmann as kB_sc # I've imported the unitless value for kB from SciPy
+from scipy.constants import Boltzmann as kB_sc
+# I've imported the unitless value for kB from SciPy
 
 kB = kB_sc * u.joule / u.kelvin # I've given kB units for you in J/K; you can use the kB variable to give you Boltzmann's constant with units
 def EinsteinStokes(T,r,v):
@@ -320,7 +321,8 @@ In this section you and your team can practice using Teletype together.
 
 1. Create a portal for your team members to join. Have them write you words of  encouragement in the space below, and be sure they sign their name next to their encouragements.
 
-<!--- Fill you answer here. --->
+I respect&appreciate Aly's fashion sense. - Felix Yang
+You are a great team member Aly! - Julia
 
 
 
